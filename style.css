@@ -1,0 +1,154 @@
+#create-form, #update-form, #delete-form {
+    display: none;
+}
+
+body {
+    font-family: 'Courier Prime', monospace;
+}
+
+.main-bg-container {
+    width: 97%;
+    height: 35vw;
+    border: 2px solid black;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(movieflix_cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-div {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+table {
+    margin: 15px auto;
+    width: 50vw;
+    text-align: center;
+}
+
+table tr td {
+    padding: 12px;
+}
+
+table tr th {
+    font-size: 25px;
+}
+
+.content-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#create-button, #update-button, #delete-button {
+    width: 140px;
+    height: 37.5px;
+    background-color: darkred;
+    color: #FFFFAA;
+    border-radius: 4px;
+    border: 2px solid black;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+#create-button:hover, #update-button:hover, #delete-button:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.small-button {
+    width: 76px;
+    height: 30px;
+    background-color: darkred;
+    color: #FFFFAA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    margin: 6px;
+    width: 260px;
+    height: 32px;
+    padding: 3px;
+     
+}
+
+.contact-section {
+    width: 97.5vw;
+    height: 20vw;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+}
+
+.contact-title {
+    margin: 10px 0;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.email {
+    font-size: 140%;
+    margin: 5px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-media-div {
+    width: 15%;
+    margin: 20px auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-icon {
+    width: 30%;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.icon:visited {
+    color: white;
+}
+
+.icon:active {
+    color: white;
+}
+
+.icon:link {
+    color: white;
+}
+
+.icon:hover {
+    color: black;
+}
+
+.mail:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.mail:active {
+    color: white;
+    text-decoration: none;
+}
+
+.mail:link {
+    color: white;
+    text-decoration: none;
+}
+
+.mail:hover {
+    color: black;
+    text-decoration: none;
+}
